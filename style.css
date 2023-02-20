@@ -1,0 +1,161 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+h1 {
+    font-size: 76px;
+    color: black;
+}
+
+h2 {
+    font-size: 55px;
+    color: black;
+    margin: 20px auto;
+}
+
+h3 {
+    font-size: 35px;
+    color: black;
+}
+
+
+
+.wrapper {
+    display: block;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+.header {
+    background-color: #e5eaf1;
+}
+
+.header-head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #445162;
+}
+
+.header-head__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-head__menu ul {
+    display: flex;
+    row-gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-head__menu ul li {
+    margin: 0 20px;
+}
+
+.header-head__search {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-body {
+    display: flex;
+}
+
+.header-body__title {
+    padding: 7% 0;
+    text-align: center;
+}
+
+.header-body__title h1 {
+    font-size: 76px;
+    color: black;
+}
+
+
+.news {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #96bbeb;
+}
+
+.news-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.news-card__button button{
+    background-color: aqua;
+    color: #445162;
+}
+
+.about {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.contacts-wrap {
+    color: black;
+}
+.contacts__input {
+    font-size: 30px;
+    margin: 20px 10px;
+}
+.contacts__input input {
+    height: 30px;
+    font-size: 30px;
+    border-radius: 20%;
+    background-color: #c1cddd;
+}
+.contacts__input button{
+    font-size: 30px;
+    margin: 20px 10px;
+}
+
+
+.footer-wrap {
+    display: flex;
+    background-color:#445162;
+
+    justify-content: space-between;
+}
+.footer__text {
+    font-size: 30px;
+    color: #fff;
+}
